@@ -421,7 +421,6 @@
 
     .stat-item:nth-child(2) { animation-delay: 0.2s; }
     .stat-item:nth-child(3) { animation-delay: 0.4s; }
-    .stat-item:nth-child(4) { animation-delay: 0.6s; }
 
     @keyframes slideUp {
       to {
@@ -511,6 +510,13 @@
     .contact-item a:hover {
       color: var(--primary-dark);
       transform: scale(1.05);
+    }
+
+    .contact-subtitle {
+      color: var(--text-light);
+      font-size: 1rem;
+      margin-top: 8px;
+      font-weight: 400;
     }
 
     /* Footer */
@@ -628,7 +634,7 @@
         <p class="subtitle">Premium Tech Support in Eastland, TX</p>
         <p class="description">Professional IT solutions for homes and businesses. Fast response, reliable service, and friendly local support you can trust.</p>
         <div class="cta-group">
-          <a href="#contact" class="cta-button">📞 Get Help Now</a>
+          <a href="#contact" class="cta-button">📱 Call or Text Now</a>
           <a href="#services" class="cta-button cta-secondary">🔧 Our Services</a>
         </div>
       </div>
@@ -679,10 +685,6 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-item">
-            <div class="stat-number">500+</div>
-            <div class="stat-label">Satisfied Customers</div>
-          </div>
-          <div class="stat-item">
             <div class="stat-number">24hr</div>
             <div class="stat-label">Response Time</div>
           </div>
@@ -712,9 +714,10 @@
               <p>Eastland, TX<br>& Surrounding Communities</p>
             </div>
             <div class="contact-item fade-in">
-              <div class="contact-icon">📞</div>
-              <h3>Call Us</h3>
+              <div class="contact-icon">📱</div>
+              <h3>Call or Text</h3>
               <a href="tel:+12544420796">(254) 442-0796</a>
+              <p class="contact-subtitle">Phone calls & text messages welcome</p>
             </div>
             <div class="contact-item fade-in">
               <div class="contact-icon">🌐</div>
